@@ -1,0 +1,156 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    margin:0%;
+}
+
+header{
+    background: rgb(73, 197, 235);
+    height: 70px;
+    border-bottom: 1px solid black;
+    padding: 0%;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    color: black
+}
+
+.logo {
+    display: flex;
+    margin-left: auto;
+    border-color: black;
+}
+
+.titulo {
+    font-size: 90px;
+    text-align: center;
+    background: rgb(66, 158, 233);
+    height: 100px;
+    margin: 0%;
+}
+
+.descripcion {
+    height: 40px;
+    font-size: 20px;
+    width: auto;
+    text-align: center;  
+}
+
+.subtitulo {
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicio {
+    height: 350px;
+    background: rgb(159, 198, 230);
+    width: 450px;
+    padding-left: 50px;
+}
+
+.servicio h1 {
+    text-align: center;
+}
+
+.experiencias img {
+    max-width: 100%;
+}
+
+.experiencias {
+    display: flex;
+    align-items: flex-start;
+}
+.experiencias-contenido {
+    flex: 1;
+    padding: 10px;
+    background: rgb(66, 158, 233);
+    border-top: 1px solid rgb(8, 43, 160);
+    border-bottom: 1px solid blue;
+}
+
+.experiencias-contenido button {
+    background: black;
+    color: antiquewhite;
+    text-align: center;
+    width: 200px;
+}
+footer {
+    background: rgb(73, 197, 235);
+    height: 300px;
+    padding: 0%;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.menu {
+    color: rgb(17, 89, 110); 
+    flex: 1 1 auto;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto {
+    color: rgb(17, 89, 110);  
+    flex: 1 1 auto;
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 180px;
+}
+
+.otros {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.otro {
+    color: rgb(17, 89, 110);
+    flex: 1 1 auto;
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.red-social {
+    padding-top: 25px;
+    padding-bottom: 0%;  
+}
